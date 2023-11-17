@@ -41,7 +41,7 @@ public class Reserva {
             this.checkIn = lines[6];
             this.roomNights = lines[7];
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Localizador no existente");
         }
     }
 
